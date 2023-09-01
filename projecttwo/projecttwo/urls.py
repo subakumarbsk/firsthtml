@@ -20,6 +20,6 @@ from demoap import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name="home"),
+    path('https://subakumarbsk.github.io/firsthtml/',views.home,name="home"),
     path('formresu',views.formres,name="result"),
 ]
