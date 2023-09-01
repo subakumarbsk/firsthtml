@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <form class="well form-group" action="formresu">
+        <label for="name" class="text-primary col-md-2">Name</label>
+        <input type="text" class="col-ms-3" placeholder="Enter Your Name" name="names" pattern="^[a-z]+$"><br><br>
+        <label for="number" class="text-primary col-md-2" >Number</label>
+        <input type="number" class="col-ms-3" placeholder="Enter Your number" name="number"><br><br>
+        <label for="dob" class="text-primary col-md-2">DOB</label>
+        <input type="date" class="col-ms-3" placeholder="Enter Your Name" name="dob"><br><br>
+        <br><br>
+        <button type="submit" class="btn btn-danger"> Click</button>
+    </form>
+</body>
+</html>
